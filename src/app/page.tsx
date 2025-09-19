@@ -13,7 +13,7 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleApple
           navItems={[{ name: 'Hero', id: 'hero' }, { name: 'About', id: 'about' }, { name: 'How to Buy', id: 'how-to-buy' }, { name: 'Tokenomics', id: 'tokenomics' }, { name: 'Footer', id: 'footer' }]}
-          logoSrc="/images/logo.svg"
+          logoSrc="/images/logo.svg" 
           logoAlt="GlowFlow Logo"
           brandName="GlowFlow"
         />
@@ -50,7 +50,6 @@ export default function Home() {
           logoAlt="GlowFlow Logo"
           columns={[{ items: [{ label: 'Privacy Policy', onClick: () => console.log('Privacy Policy Clicked') }, { label: 'Terms of Service', onClick: () => console.log('Terms Clicked') }] }]} 
           logoText="GlowFlow"
-          copyrightText="© 2023 GlowFlow"
           onPrivacyClick={() => console.log('Privacy Clicked')}
         />
       </div>
