@@ -50,7 +50,6 @@ export default function Home() {
           logoAlt="GlowFlow Logo"
           columns={[{ items: [{ label: 'Privacy Policy', onClick: () => console.log('Privacy Policy Clicked') }, { label: 'Terms of Service', onClick: () => console.log('Terms Clicked') }] }]} 
           logoText="GlowFlow"
-          onPrivacyClick={() => console.log('Privacy Clicked')}
         />
       </div>
     </SiteThemeProvider>
